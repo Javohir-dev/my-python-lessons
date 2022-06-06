@@ -1,5 +1,4 @@
 # my-python-lessons
-# python-lessons
 
 My python lessons.
 Python lessons:
