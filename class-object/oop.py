@@ -82,3 +82,7 @@ talaba4 = User("Jahongir", "Sadullaev",
 students = [talaba1, talaba2, talaba3, talaba4]
 for student in students:
     print(student.get_info())
+
+
+
+print("salom")
