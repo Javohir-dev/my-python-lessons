@@ -15,6 +15,7 @@ for student in students:
     print(student.familiya)
     print(student.tyil)
 
+
 class Talaba:
     def __init__(self, ism, familiya, tyil):
         self.ism = ism
