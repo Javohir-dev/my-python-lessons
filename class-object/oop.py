@@ -73,12 +73,12 @@ class User:
 
 talaba1 = User("Javohir1", "Khamidullaev",
                "javohir.coder", "coderjek@gmail.com")
-talaba2 = User("Javohir2", "Khamidullaev",
-               "javohir.coder", "coderjek@gmail.com")
-talaba3 = User("Javohir3", "Khamidullaev",
-               "javohir.coder", "coderjek@gmail.com")
-talaba4 = User("Javohir4", "Khamidullaev",
-               "javohir.coder", "coderjek@gmail.com")
+talaba2 = User("Abdulaziz", "Olimov",
+               "abdulaziz.coder", "coderabdu@gmail.com")
+talaba3 = User("Shoxruh", "Abdurahmonov",
+               "shaxa.dev", "shox4747@gmail.com")
+talaba4 = User("Jahongir", "Sadullaev",
+               "jahongir.925", "johon925@gmail.com")
 students = [talaba1, talaba2, talaba3, talaba4]
 for student in students:
     print(student.get_info())

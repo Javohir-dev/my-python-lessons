@@ -1,4 +1,4 @@
-# my-python-lessons
+# My Python Lessons
 
 My python lessons.
 Python lessons:
@@ -12,3 +12,5 @@ nesting,
 while,
 def,
 moduls,
+OOP,
+class,
