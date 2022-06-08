@@ -1,6 +1,5 @@
 # My Python Lessons
 
-My python lessons.
 Python lessons:
 methods,
 for,
