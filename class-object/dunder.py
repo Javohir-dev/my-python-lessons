@@ -1,6 +1,9 @@
 # dars linki: https://www.youtube.com/watch?v=KOKEsau2uaU&t=0s
 # ? 1-qism
 
+# dars linki: https://youtu.be/ltTOXJJiPRk
+# ? 2-qism
+
 class Avto:
     """Avtomobil klassi"""
     __num_avto = 0
@@ -131,7 +134,3 @@ salon3 = salon1 + salon2
 # print(f"\n{salon3()}\n")
 salon1 + avto4  # orqali yangi mashina qoshayapmiz
 print(salon1())
-
-
-# dars linki: https://youtu.be/ltTOXJJiPRk
-# ? 2-qism
