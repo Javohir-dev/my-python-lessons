@@ -16,14 +16,37 @@
 
 # print(pi)
 
-filename = 'data/talaba.txt'
+# filename = 'data/talaba.txt'
 
-with open(filename) as file:
-    for line in file:
-        print(line)
+# with open(filename) as file:
+#     for line in file:
+#         print(line)
 
-# bu amal har bir qatorni alohida element qilib ro'yxatga joylaydi
-with open(filename) as file:
-    talabalar = file.readlines()
+# # bu amal har bir qatorni alohida element qilib ro'yxatga joylaydi
+# with open(filename) as file:
+#     talabalar = file.readlines()
 
-#print(talabalar)
+# # print(talabalar)
+
+# talabalar = [talaba.rstrip() for talaba in talabalar]
+
+# print(talabalar)
+
+# # ! filega yozish
+# filenomi = 'new_file.txt'
+# ism = 'Olimjon Hasanov'
+# tyil = 2002
+# # ! 'w' << bu file nima maqsadda ochilayotganini bildiradi. 'w' bu write yani yozmoq
+# # ! 'w' aslida yangi file uchun moljallangan, yani biz 'w' ni ishlatsak file ichini tozalab tashlaydi.
+# # ! agar 'new_file.txt' degan file bo'lmasa yangi file yaratadi.
+# with open(filenomi, 'w') as file:
+#     file.write(ism + '\n')
+#     file.write(str(tyil) + '\n')
+
+faylnomi = 'new_file.txt'
+# ! 'a' bu belgi append yani qoshishni bildiradi
+# ! file ichidagi matnlardan kegin yoziladi.
+# ! agar 'new_file.txt' bunday file yoq bolsa yaratadi.
+with open(faylnomi, 'a') as fayl:
+    fayl.write("Alijon Valiyev\n")
+    fayl.write("2000")
