@@ -1,5 +1,7 @@
 # My Python Lessons
 
+python --version
+>python 3.10.4
 Python lessons:
 methods,
 for,
@@ -13,3 +15,4 @@ moduls,
 OOP,
 class,
 object,
+work_with_files,
