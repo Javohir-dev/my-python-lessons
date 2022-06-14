@@ -43,10 +43,10 @@
 #     file.write(ism + '\n')
 #     file.write(str(tyil) + '\n')
 
-faylnomi = 'new_file.txt'
-# ! 'a' bu belgi append yani qoshishni bildiradi
-# ! file ichidagi matnlardan kegin yoziladi.
-# ! agar 'new_file.txt' bunday file yoq bolsa yaratadi.
-with open(faylnomi, 'a') as fayl:
-    fayl.write("Alijon Valiyev\n")
-    fayl.write("2000")
+# faylnomi = 'new_file.txt'
+# # ! 'a' bu belgi append yani qoshishni bildiradi
+# # ! file ichidagi matnlardan kegin yoziladi.
+# # ! agar 'new_file.txt' bunday file yoq bolsa yaratadi.
+# with open(faylnomi, 'a') as fayl:
+#     fayl.write("Alijon Valiyev\n")
+#     fayl.write("2000")
