@@ -13,6 +13,8 @@ print(f"Darsga kelmagan talabalar: {talaba1} va {talabe2}.")
 print(f"{talaba.title()} darsga kechikib keldi.")
 
 # ? ihtiyoriy ma'lumot.
+
+
 def toliq_ism_yasa(ism, familiya, otasining_ismi=''):
     """To'liq ism qaytaruvchi funksiya"""
     if otasining_ismi:
@@ -25,6 +27,7 @@ def toliq_ism_yasa(ism, familiya, otasining_ismi=''):
 talaba1 = toliq_ism_yasa('javohir', 'khamidullayev')
 talabe2 = toliq_ism_yasa('hasan', 'husanov', 'akmalovich')
 print(f"Darsga kelmagan talabalar: {talaba1.title()} va {talabe2.title()}.")
+
 
 def avto_info(kompaniya, model, rang, korobka, yili, narxi=None):
     avto = {
@@ -68,6 +71,8 @@ def oraliq(min, max, step=1):
 
 print(oraliq(0, 100, 10))
 # ?
+
+
 def avto_info(kompaniya, model, rang, korobka, yili, narxi):
     avto = {
         'kompaniya': kompaniya,
@@ -106,6 +111,7 @@ for avto in avtolar:
 print(f"{avto['rang'].title()}, {avto['model'].upper()}, {avto['korobka']}. Narxi:{narx} so'm")
 
 # ! Mashg'ulot:
+
 
 def mijoz_info(ism, familiya, tyil, tjoy, email="", tel=None):
     """Mijoz haqidagi ma'lumotlarni lug'at ko'rinishida qaytaruvchi funksiya"""
