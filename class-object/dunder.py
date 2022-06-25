@@ -22,7 +22,7 @@ class Avto:
 
     def __repr__(self):
         """Ko'proq tavsiya qilinadi chunki
-        bu methodko'proq funksiyalar bilan ham ishlaydi"""
+        bu method ko'proq funksiyalar bilan ham ishlaydi"""
         return f"Avto: {self.make} {self.model}"
 
     def __eq__(self, y):
